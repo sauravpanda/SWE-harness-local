@@ -1,5 +1,6 @@
 import os
 
+
 def print_directory_tree(path, indent=0):
     """
     Print the directory tree of the given path.
@@ -11,6 +12,7 @@ def print_directory_tree(path, indent=0):
         print(prefix + entry)
         if is_dir:
             print_directory_tree(entry_path, indent + 1)
+
 
 if __name__ == "__main__":
     print_directory_tree(".")

@@ -11,6 +11,7 @@ swebench = "^2.0.12"
 docker = "^7.1.0"
 jsonlines = "^4.0.0"
 black = "^24.8.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
